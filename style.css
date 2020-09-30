@@ -1,0 +1,50 @@
+/* these comments in css files */
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(255, 0, 179);
+}
+
+#vizContainer {
+  background-color: gray;
+}
+
+button {
+  background-color: #26a69a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
+
+button :hover {
+  outline: 0;
+  background-color: #ee6e73;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.24), 0 5px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+button :focus {
+  outline: 0;
+  background-color: #ee6e73;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.24);
+}
